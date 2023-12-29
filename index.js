@@ -29,20 +29,16 @@ else{
 }
 
 
-/*
-window.onload=function()
-{
-    var i = 0;
-    var txt = '<Welcome>';
-    var speed = 200;
-    var x = document.getElementById("myAudio"); 
-    x.play();
-  if (i < txt.length) {
-    document.getElementById("type").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+document.onreadystatechange = function () {
+  if (document.readyState !== "complete") {
+      document.querySelector(
+          "body").style.visibility = "hidden";
+      document.querySelector(
+          "#loader").style.visibility = "visible";
+  } else {
+      document.querySelector(
+          "#loader").style.display = "none";
+      document.querySelector(
+          "body").style.visibility = "visible";
   }
-    var element = document.getElementById("loaded");
-   element.classList.toggle("pre");
-}
-*/
+};
