@@ -42,3 +42,14 @@ document.onreadystatechange = function () {
           "body").style.visibility = "visible";
   }
 };
+
+
+var header = document.getElementById("carousel");
+var btns = header.getElementsByClassName("Btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("_active");
+  current[0].className = current[0].className.replace(" _active", "");
+  this.className += " _active";
+  });
+}
