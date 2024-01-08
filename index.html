@@ -35,6 +35,7 @@
   [class*="col-"] {
     width: 100%;
     text-align: center;
+    justify-content: center;
     
     
   }
@@ -47,7 +48,7 @@
     <title>Sohan Karfa</title>
     
  
-  <body style="overflow-x: hidden; overflow-y:scroll;  width: 100vw;">
+  <body style="overflow-x: hidden; overflow-y:scroll;  width: 100%;">
     <div id="loader" style="width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center;"><img src="https://tamilnaducouncil.ac.in/wp-content/uploads/2018/10/loading-gif.gif"></div>
     
     <div class="loaded">
@@ -64,7 +65,10 @@
           <a class="nav-link active" class="btn" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" class="btn" href="#">Skills</a>
+          <a class="nav-link" class="btn" href="#Edu">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" class="btn" href="#Ski">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"  class="btn" href="#">Projects</a>
@@ -96,54 +100,70 @@
   </div>  
 </div>
 <br><br>
-<!--Education
-<h2  style=" text-align: center;   color:rgb(46, 42, 42); width: 100vw;">My Education</h2>
-
-
-
-<div class="d-flex justify-content-center">
-<div class="card-group " style="width: calc(95% + 0.5vw); border-radius: 10px; position: relative; justify-content: center;">
-  <div class="card" style="width: calc(90% + 0.5vw); border-radius: 10px; border-color: white;">
-    <img src="https://th-i.thgim.com/public/latest-news/51nxiw/article67654952.ece/alternates/LANDSCAPE_1200/LPU.jpg" style="width: calc(100% + 0.5vw); height: calc(250px + 0.5vw); border-radius: 10px;" alt="...">
-    <div class="card-body" >
-      <h5 class="card-title">Lovely Professional University, Punjab, India</h5>
-      <h5 class="card-title">B.Tech CSE</h5>
-      <h5 class="card-title">Pass Out: 2025</h5>
-      <h5 class="card-title">Currently Studying</h5>
-      </div>
- 
+<h2 id="Edu"  style=" text-align: center;   color:rgb(46, 42, 42); width: 100vw;">My Education</h2><br>
+<!--Edu-->
+<div id="carouselExampleDark1" class="carousel carousel-dark slide" style="overflow-x: hidden;">
+  <div id="carousel1"  style="position: relative; justify-content: center; display: flex;">
+    <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="0" class="Btn1 _active1 "  aria-label="Slide 1">Graduation</button>
+    <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="1" class="Btn1" aria-label="Slide 2">Higher Secondary</button>
+    <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="2" class="Btn1" aria-label="Slide 3">Secondary</button>
   </div>
-  <div class="card" style="width: calc(90% + 0.5vw); border-radius: 10px; border-color: white; justify-content: center;">
-    <img src="https://www.tarakeswarhighschool.com/slider/slide4.png"  style="width: calc(100% + 0.5vw); height: calc(250px + 0.5vw); border-radius: 10px;" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Tarakeswar High School, Tarakeswar, India</h5>
-      <h5 class="card-title">Higher Secondary</h5>
-      <h5 class="card-title">Pass Out: 2021</h5>
-      <h5 class="card-title">Percentage: 89</h5>
+<br>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <div class="container text-center" style="border-radius: 10px; background-color: rgb(250, 250, 241);">
+        <div class="row">
+          <div class="col "><img src="https://th-i.thgim.com/public/latest-news/51nxiw/article67654952.ece/alternates/LANDSCAPE_1200/LPU.jpg" style="width: calc(100% + 0.5vw); height: calc(260px + 0.5vw); border-radius: 10px;" alt="..."></div>
+          <div class="col-sm text-start">
+            <br><h5 > Lovely Professional University, Punjab, India</h5><br>
+      <h5 > B.Tech CSE</h5><br>
+      <h5 > Pass Out: 2025</h5><br>
+      <h5 > Currently Studying</h5>
+          </div>
+          
+        </div>
+        </div>
     </div>
-    
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="container text-center" style="border-radius: 10px; background-color: rgb(250, 250, 241);">
+        <div class="row">
+          <div class="col "><img src="https://www.tarakeswarhighschool.com/slider/slide4.png" style="width: calc(100% + 0.5vw); height: calc(260px + 0.5vw); border-radius: 10px;" alt="..."></div>
+          <div class="col-sm text-start">
+            <br><h5 > Tarakeswar High School, Tarakeswar, India</h5><br>
+      <h5 > Higher Secondary</h5><br>
+      <h5 > Pass Out: 2021</h5><br>
+      <h5 > Percentage: 89</h5>
+          </div>
+          
+        </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container text-center" style="border-radius: 10px; background-color: rgb(250, 250, 241);">
+        <div class="row">
+          <div class="col "><img src="https://content.jdmagicbox.com/comp/hooghly/k7/9999p3211.3211.151012125342.b1k7/catalogue/tarakeswar-high-school-tarakeswar-hooghly-schools-ub88s2j720.jpg?clr=" style="width: calc(100% + 0.5vw); height: calc(260px + 0.5vw); border-radius: 10px;" alt="..."></div>
+          <div class="col-sm text-start">
+            <br><h5 > Bikash Bharati Blooms Day School, Tarakeswar, India</h5><br>
+      <h5 > Secondary</h5><br>
+      <h5 > Pass Out: 2019</h5><br>
+      <h5 > Percentage: 91.42</h5>
+          </div>
+          
+        </div>
+        </div>
+    </div>
   </div>
-  <div class="card" style="width: calc(90% + 0.5vw); border-radius: 10px; border-color: white; justify-content: center;">
-    <img src="https://content.jdmagicbox.com/comp/hooghly/k7/9999p3211.3211.151012125342.b1k7/catalogue/tarakeswar-high-school-tarakeswar-hooghly-schools-ub88s2j720.jpg?clr="
-    style="width: calc(100% + 0.5vw); height: calc(250px + 0.5vw); border-radius: 10px;" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Bikash Bharati Blooms Day School, Tarakeswar, India</h5>
-      <h5 class="card-title">Secondary</h5>
-      <h5 class="card-title">Pass Out: 2019</h5>
-      <h5 class="card-title">Percentage: 91.42</h5>
-     </div>
-    
-  </div>
+ 
 </div>
-</div>
--->
-<!--My Education--><br><br>
-<h2  style=" text-align: center;   color:rgb(46, 42, 42); width: 100vw;">My Skills</h2>
+
+
+<br><br>
+<h2 id="Ski"  style=" text-align: center;   color:rgb(46, 42, 42); width: 100vw;">My Skills</h2>
 <h6 style=" text-align: center;   color:rgb(46, 42, 42); width: 100vw;">Click On The Skills For Justifications.</h6><br>
 
 
 <!--Carousel-->
-<div id="carouselExampleDark" class="carousel carousel-dark slide">
+<div id="carouselExampleDark" class="carousel carousel-dark slide" style="overflow-x: hidden;" >
   <div id="carousel"  style="position: relative; justify-content: center; display: flex;">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="Btn _active "  aria-label="Slide 1">Technical</button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="Btn" aria-label="Slide 2">Non-Technical</button>
@@ -566,6 +586,16 @@ src="6.png"  class="img-fluid rounded-start"
  
 </div>
 <!--Carousel-->
+
+<br>
+<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <h6 class="btn btn-secondary" href="https://www.instagram.com/sohan_karfa/" style="color:aliceblue;">Instagram</h6> 
+  <h6 class="btn btn-secondary" href="https://www.linkedin.com/in/sohan-karfa-72819521b/"style="color:aliceblue;">LinkedIn</h6>
+  <h6 class="btn btn-secondary" href="https://twitter.com/SohanKarfa" style="color:aliceblue;">Twitter (X)</h6>
+  <h6 class="btn btn-secondary" href="https://github.com/Sohan-2001" style="color:aliceblue;">GitHub</h6>
+
+  
+</nav>
   
   
   
