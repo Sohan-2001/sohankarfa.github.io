@@ -53,4 +53,14 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " _active";
   });
 }
+var header = document.getElementById("carousel1");
+var btns = header.getElementsByClassName("Btn1");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("_active1");
+  current[0].className = current[0].className.replace(" _active1", "");
+  this.className += " _active1";
+  });
+}
+
 
