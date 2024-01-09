@@ -20,13 +20,17 @@
    border-radius: 10px; 
 }
 .SkillBox{
-  background-color:rgb(178, 207, 178);
+  background-color:rgb(222, 222, 233);
   border-radius: 10px;
   box-shadow: 20px 20px 5px rgb(146, 195, 203);
   border-radius: 10px;
 }
-.Skills:hover, .Skills_Active{
-  background-color:rgb(178, 207, 178);
-   box-shadow: 5px 5px rgb(188, 208, 188);
-   border-radius: 10px; 
+
+.SkillBoxInside,.SkillBoxInside1{
+  display: inline-block; 
+  border-color: black; 
+  background-color:  rgb(216, 220, 184);
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: 5px 5px 5px 1px rgb(118, 157, 163);
 }
